@@ -1,0 +1,481 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    line-height:1.6;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#1f2937;
+}
+
+.logo{
+    color:white;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:25px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:#2563eb;
+    color:white;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    text-decoration:none;
+    background:white;
+    color:#2563eb;
+    padding:12px 25px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.about-preview,
+.services{
+    padding:60px;
+    text-align:center;
+}
+
+.service-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    width:280px;
+    padding:30px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.why-us,
+.technologies,
+.cta{
+    padding:70px 60px;
+    text-align:center;
+}
+
+.why-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.why-card{
+    width:300px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    background:white;
+}
+
+.tech-list{
+    margin-top:40px;
+}
+
+.tech-list span{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:12px 22px;
+    margin:10px;
+    border-radius:25px;
+}
+
+.cta{
+    background:#1f2937;
+    color:white;
+}
+
+.cta p{
+    margin:20px 0;
+}
+
+.page-banner{
+
+background:#2563eb;
+
+color:white;
+
+padding:80px;
+
+text-align:center;
+
+}
+
+.page-banner h1{
+
+font-size:42px;
+
+margin-bottom:10px;
+
+}
+
+.about-company{
+
+padding:70px;
+
+text-align:center;
+
+}
+
+.about-company p{
+
+max-width:900px;
+
+margin:auto;
+
+font-size:18px;
+
+}
+
+.mission{
+
+display:flex;
+
+justify-content:center;
+
+gap:40px;
+
+padding:70px;
+
+flex-wrap:wrap;
+
+}
+
+.box{
+
+width:420px;
+
+padding:30px;
+
+border-radius:10px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.stats{
+
+padding:70px;
+
+text-align:center;
+
+}
+
+.stats-container{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+margin-top:40px;
+
+flex-wrap:wrap;
+
+}
+
+.stat-card{
+
+width:220px;
+
+padding:30px;
+
+background:#2563eb;
+
+color:white;
+
+border-radius:10px;
+
+}
+
+.stat-card h3{
+
+font-size:38px;
+
+margin-bottom:10px;
+
+}
+
+.page-banner{
+
+background:#2563eb;
+
+color:white;
+
+padding:80px;
+
+text-align:center;
+
+}
+
+.page-banner h1{
+
+font-size:42px;
+
+margin-bottom:10px;
+
+}
+
+.about-company{
+
+padding:70px;
+
+text-align:center;
+
+}
+
+.about-company p{
+
+max-width:900px;
+
+margin:auto;
+
+font-size:18px;
+
+}
+
+.mission{
+
+display:flex;
+
+justify-content:center;
+
+gap:40px;
+
+padding:70px;
+
+flex-wrap:wrap;
+
+}
+
+.box{
+
+width:420px;
+
+padding:30px;
+
+border-radius:10px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.stats{
+
+padding:70px;
+
+text-align:center;
+
+}
+
+.stats-container{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+margin-top:40px;
+
+flex-wrap:wrap;
+
+}
+
+.stat-card{
+
+width:220px;
+
+padding:30px;
+
+background:#2563eb;
+
+color:white;
+
+border-radius:10px;
+
+}
+
+.stat-card h3{
+
+font-size:38px;
+
+margin-bottom:10px;
+
+}
+
+.service-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:30px;
+
+padding:70px;
+
+}
+
+.service-card{
+
+padding:30px;
+
+border-radius:10px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+transition:.3s;
+
+background:white;
+
+}
+
+.service-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.service-card h2{
+
+margin-bottom:20px;
+
+color:#2563eb;
+
+}
+
+.enquiry-section{
+
+display:flex;
+
+justify-content:center;
+
+padding:70px;
+
+}
+
+.enquiry-form{
+
+width:650px;
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+padding:40px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+border-radius:10px;
+
+background:white;
+
+}
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea{
+
+padding:15px;
+
+font-size:16px;
+
+border:1px solid #ccc;
+
+border-radius:6px;
+
+}
+
+.enquiry-form button{
+
+border:none;
+
+cursor:pointer;
+
+}
+
+.contact-section{
+
+display:flex;
+
+justify-content:center;
+
+gap:40px;
+
+padding:70px;
+
+flex-wrap:wrap;
+
+}
+
+.contact-info{
+
+width:400px;
+
+padding:30px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+border-radius:10px;
+
+}
+
+.contact-info p{
+
+margin:20px 0;
+
+}
+
+.contact-map{
+
+width:600px;
+
+}
